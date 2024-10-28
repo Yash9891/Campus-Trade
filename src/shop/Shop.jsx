@@ -3,7 +3,7 @@ import { Card } from "flowbite-react";
 export const Shop = () => {
   const [items, setItems]=useState([]);
   useEffect(()=>{
-    fetch('https://campus-backend3.vercel.app/all-items').then(res=>res.json()).then(data=>setItems(data))
+    fetch('https://campus-render.onrender.com/all-items').then(res=>res.json()).then(data=>setItems(data))
   },[])
   return (
     <>

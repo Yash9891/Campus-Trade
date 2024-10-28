@@ -4,12 +4,12 @@ import { Table } from "flowbite-react";
 export const ManageItems = () => {
   const [allItems, setallItems]=useState([]);
   useEffect(()=>{
-    fetch("https://campus-backend3.vercel.app/all-items").then(res=>res.json()).then(data=>setallItems(data))
+    fetch("https://campus-render.onrender.com/all-items").then(res=>res.json()).then(data=>setallItems(data))
   },[])
 
   const handleDelete=(id)=>{
   
-    fetch(`https://campus-backend3.vercel.app/item/${id}`,{
+    fetch(`https://campus-render.onrender.com/item/${id}`,{
       method:"DELETE",
     }).then(
       res=>res.json().then(data=>{alert("Item Deleted Successfully")

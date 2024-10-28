@@ -39,7 +39,7 @@ const router =createBrowserRouter([
             {
                 path:"/item/:id",
                 element:<SinlgeItem/>,
-                loader:({params})=>fetch(`https://campus-backend3.vercel.app/item/${params.id}`)
+                loader:({params})=>fetch(`https://campus-render.onrender.com/item/${params.id}`)
             }
         ]
     },
@@ -62,7 +62,7 @@ const router =createBrowserRouter([
             {
                 path:'/admin/dashboard/edit-items/:id',
                 element:<EditItems/>,
-                loader:({params})=>fetch(`https://campus-backend3.vercel.app/item/${params.id}`)
+                loader:({params})=>fetch(`https://campus-render.onrender.com/item/${params.id}`)
 
             }
         ]

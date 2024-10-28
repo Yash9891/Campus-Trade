@@ -37,7 +37,7 @@ export const UploadItem = () => {
     const itemObj={
       itemName, brand, imageURL, category, itemDescription
     }
-    fetch("https://campus-backend3.vercel.app/upload-item",{
+    fetch("https://campus-render.onrender.com/upload-item",{
       method:"POST",
       headers:{
         "Content-type":"application/json",

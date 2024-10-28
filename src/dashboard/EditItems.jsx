@@ -46,7 +46,7 @@ export const EditItems = () => {
     };
 
     // Make POST request to upload item
-    fetch(`https://campus-backend3.vercel.app//item/${id}`, {
+    fetch(`https://campus-render.onrender.com/item/${id}`, {
       method: "PATCH",
       headers: {
         "Content-type": "application/json",
