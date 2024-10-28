@@ -1,5 +1,5 @@
 
-import React, { useContext, useState } from 'react'
+import  { useContext, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../contects/AuthProvider'
 import googleLogo from "../assets/google.svg.webp"
@@ -19,7 +19,7 @@ export const Login = () => {
             alert("Login successfull!");
             navigate(from, {replace:true})
         }).catch((error)=>{
-            const errorCode=error.code;
+            // const errorCode=error.code;
             const errorMessage=error.message;
             setError(errorMessage)
         })

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import { Card } from "flowbite-react";
 export const Shop = () => {
   const [items, setItems]=useState([]);

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBlog, FaBars } from 'react-icons/fa';
 import { FaXmark } from 'react-icons/fa6';

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { BannerCard } from '../home/BannerCard'
 
 export const Banner = () => {

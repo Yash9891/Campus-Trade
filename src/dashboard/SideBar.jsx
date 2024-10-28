@@ -1,6 +1,6 @@
-import React, { useContext } from 'react'
+import  { useContext } from 'react'
 import { Sidebar } from "flowbite-react";
-import { BiBuoy } from "react-icons/bi";
+
 import userImg from "../assets/banner-items/item1.jpg"
 import { HiArrowSmRight, HiChartPie, HiInbox, HiOutlineCloudUpload, HiShoppingBag, HiSupport, HiTable, HiUser, HiViewBoards } from "react-icons/hi";
 import { AuthContext } from '../contects/AuthProvider';
