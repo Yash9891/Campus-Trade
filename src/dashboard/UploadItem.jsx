@@ -3,17 +3,29 @@ import { Button, Checkbox, Label, Select, Textarea, TextInput } from "flowbite-r
 export const UploadItem = () => {
   const itemCategorys=[
     "Laptops",
-    "Electronic",
+   
+    "Tablets",
+    "Printers",
+    "Smartphones",
+    "Digital Cameras",
+    "Headphones",
+    "Projects",
+    "Projectors",
+    "Calculators",
+    "Musical Instruments",
+    "Art Supplies",
+    "Textbooks",
+    "Reference Books",
     "Books",
-    "Science",
-    "Calculator",
-    "Keyboard",
-    "Mouse",
-    "Bags",
-    "Tablate",
-    "Print",
-    "Pens",
-    "Projects"
+    "Stationery Supplies",
+    "Notebooks",
+    "Desk Organizers",
+    "Ergonomic Chairs",
+    "Study Guides",
+    "Flashcards",
+    "Backpacks",
+    "Educational Games"
+    
 
 
 

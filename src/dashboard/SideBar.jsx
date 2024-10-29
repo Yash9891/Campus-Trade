@@ -10,7 +10,7 @@ export const SideBar = () => {
   return (
     <>
     <Sidebar aria-label="Sidebar with content separator example">
-    <Sidebar.Logo href="/" img={user?.photoURL || userImg} imgAlt="User logo" className="rounded w-16 h-16">
+    <Sidebar.Logo href="/" img={user?.photoURL || userImg} imgAlt="" className="rounded w-16 h-16">
     <p >{user?.displayName || "User"}</p>
 </Sidebar.Logo>
 

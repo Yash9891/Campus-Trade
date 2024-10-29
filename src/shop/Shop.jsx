@@ -8,12 +8,12 @@ export const Shop = () => {
   return (
     <>
     <div className='mt-28 px-4 lg:px24'>
-      <h2 className='text-5xl font-bold text-center'>All Items are Here</h2>
+      <h2 className='text-5xl font-bold text-center shop-title'>All Items are Here</h2>
       <div className='grid gap-8 mty-12 lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 grid-cols-1'>
         {
           items.map(item=> <Card
             className="max-w-sm" >
-              <img src={item.imageURL} alt="" className='h-96' />
+              <img src={item.imageURL} alt="" className='h-96 object-cover' />
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               
               <p>

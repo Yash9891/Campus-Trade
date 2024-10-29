@@ -1,3 +1,41 @@
 header, nav{
     z-index:100001 !important;
 }
+.shop-title{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.logoH{
+    color: rgb(204 41 240);
+}
+.homepage{
+    background-color: hsl(220, 9%, 13%);
+}
+.homePara{
+    color: rgb(221, 217, 217);
+}
+.homebutton{
+    background-color:rgb(249, 66, 133);
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+
+}
+.hometHeadin{
+    background: linear-gradient(270deg, #f749e9 10%, #a009f8 100%);
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.mostpopular{
+    background: linear-gradient(270deg, #ef72e9 10%, #1528f5 100%);
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+.homeH{
+    background: linear-gradient(270deg, #f749e9 10%, #a009f8 100%);
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

@@ -9,17 +9,27 @@ export const EditItems = () => {
   // Predefined categories
   const itemCategories = [
     "Laptops",
-    "Electronic",
+    "Tablets",
+    "Printers",
+    "Smartphones",
+    "Digital Cameras",
+    "Headphones",
+    "Projects",
+    "Projectors",
+    "Calculators",
+    "Musical Instruments",
+    "Art Supplies",
+    "Textbooks",
+    "Reference Books",
     "Books",
-    "Science",
-    "Calculator",
-    "Keyboard",
-    "Mouse",
-    "Bags",
-    "Tablet",
-    "Printer",
-    "Pens",
-    "Projects"
+    "Stationery Supplies",
+    "Notebooks",
+    "Desk Organizers",
+    "Ergonomic Chairs",
+    "Study Guides",
+    "Flashcards",
+    "Backpacks",
+    "Educational Games"
   ];
 
   // State for selected category

@@ -45,9 +45,9 @@ export const ItemsCards = ({headline, items}) => {
         items.map(item=> <SwiperSlide key={item._id}>
             <Link to={`/item/${item._id}`}>
             <div className='relative'>
-                <img src={item.imageURL} alt="" />
-                <div className=' absolute top-3 right-3 bg-blue-400 hover:bg-black p-2 rounded'>
-                    <FaCartShopping className='w-4 h-4 text-white'/>
+            <img src={item.imageURL} alt="" className="h-96  object-cover imagesize" />
+                <div className=' absolute top-3 right-3 bg-white hover:bg-white p-2 rounded'>
+                    <FaCartShopping className='w-4 h-4 text-black'/>
                 </div>
                 </div>
                 <div>
