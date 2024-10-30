@@ -66,7 +66,7 @@ export const UploadItem = () => {
   }
   return (
     <div className='px-4 my-12'>
-      <h2 className='mb-8 text-3xl font-bold'>Upload The Item</h2>
+      <h2 className='mb-8 text-3xl font-bold'>Upload the <span className='uploadH'>Product</span></h2>
 
       <form onSubmit={handleItemSubmit} className="flex lg:w-[1188px] flex-col flex-wrap gap-4 ">
         {/* first row */}
@@ -130,7 +130,7 @@ export const UploadItem = () => {
        
       </div>
       
-      <Button type='submit' className='mt-5'>Upload Item</Button>
+      <Button type='submit' className='mt-5 rentnow2'>Upload Item</Button>
     </form>
     </div>
   )

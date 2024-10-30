@@ -34,8 +34,8 @@ console.log(user);
     { link: 'Home', path: '/' },
     { link: 'About', path: '/about' },
     { link: 'Shop', path: '/shop' },
-    { link: 'Sell Your Item', path: '/admin/dashboard' },
-    { link: 'Blog', path: '/blog' },
+    { link: 'Sell', path: '/admin/dashboard' },
+    // { link: 'Blog', path: '/blog' },
   ];
 
   return (

@@ -137,8 +137,8 @@ export const EditItems = () => {
           />
         </div>
 
-        <Button type="submit" className="mt-5">
-          Update Item
+        <Button type="submit" className="mt-5 rentnow2">
+          Update Product
         </Button>
       </form>
     </div>

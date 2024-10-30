@@ -19,16 +19,16 @@ export const ManageItems = () => {
   }
   return (
     <div className='px-4 my-12'>
-       <h2 className='mb-8 text-3xl font-bold'>Manage Your Product</h2>
+       <h2 className='mb-8 text-3xl font-bold'>Manage Your <span className='uploadH'>Products</span> </h2>
        <Table className='lg:w-[1188px]'>
         <Table.Head>
-          <Table.HeadCell>No.</Table.HeadCell>
-          <Table.HeadCell>Product name</Table.HeadCell>
-          <Table.HeadCell>Brand</Table.HeadCell>
-          <Table.HeadCell>Category</Table.HeadCell>
-          <Table.HeadCell>Price</Table.HeadCell>
+          <Table.HeadCell className='homeH2'>No.</Table.HeadCell>
+          <Table.HeadCell className='homeH2'>Product name</Table.HeadCell>
+          <Table.HeadCell className='homeH2'>Brand</Table.HeadCell>
+          <Table.HeadCell className='homeH2'>Category</Table.HeadCell>
+          <Table.HeadCell className='homeH2'>Price</Table.HeadCell>
           <Table.HeadCell>
-            <span >Manage</span>
+            <span className='homeH2'>Manage</span>
           </Table.HeadCell>
         </Table.Head>
         {
@@ -45,10 +45,10 @@ export const ManageItems = () => {
             <Table.Cell>{item.category}</Table.Cell>
             <Table.Cell>₹250</Table.Cell>
             <Table.Cell>
-              <Link to={`/admin/dashboard/edit-items/${item._id}`} className="font-medium text-cyan-600 hover:underline dark:text-cyan-500 mr-5">
+              <Link to={`/admin/dashboard/edit-items/${item._id}`} className="font-medium text-purple-600 hover:underline dark:text-cyan-500 mr-5 ">
                 Edit
               </Link>
-              <button onClick={()=>handleDelete(item._id)} className='bg-red-500 px-4 py-1 font-semibold text-white rounded-sm hover:by-sky-600'>Delete</button>
+              <button onClick={()=>handleDelete(item._id)} className='bg-red-500 px-4 py-1 font-semibold text-white rounded-sm hover:by-sky-600 deletebtn'>Delete</button>
             </Table.Cell>
           </Table.Row>
             

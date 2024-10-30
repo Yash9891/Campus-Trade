@@ -8,7 +8,7 @@ export const Shop = () => {
   return (
     <>
     <div className='mt-28 px-4 lg:px24'>
-      <h2 className='text-5xl font-bold text-center shop-title'>All Items are Here</h2>
+      <h2 className='text-5xl font-bold text-center shop-title'> <span className='campus'>Rent</span>  or <span className='campus'>Buy</span> any <span className='campus'>Product</span></h2>
       <div className='grid gap-8 mty-12 lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 grid-cols-1'>
         {
           items.map(item=> <Card
@@ -23,7 +23,7 @@ export const Shop = () => {
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
             </p>
-            <button className='bg-blue-500  font-semibold text-white py-2 rounded'>Rent Now</button>
+            <button className='bg-blue-500  font-semibold text-white py-2 rounded rentnow'>Rent Now</button>
           </Card>)
         }
       </div>
